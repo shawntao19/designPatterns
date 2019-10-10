@@ -11,10 +11,20 @@ public class ShapeCache {
     private static Hashtable<String, Shape> shapeMap
             = new Hashtable<String, Shape>();
 
+    /**
+     * 该方法，相比下面 可以释放数据库链接，增强性能
+     * @param shapeId
+     * @return
+     */
     public static Shape getShape(String shapeId) {
         Shape cachedShape = shapeMap.get(shapeId);
         return (Shape) cachedShape.clone();
     }
+
+//    public static Shape getShape(String shapeId) {
+//        Shape cachedShape = shapeMap.get(shapeId);
+//        return cachedShape;
+//    }
 
     // 对每种形状都运行数据库查询，并创建该形状
     // shapeMap.put(shapeKey, shape);
