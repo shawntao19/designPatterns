@@ -1,3 +1,3 @@
-# 适配器模式
-https://www.runoob.com/design-pattern/adapter-pattern.html
+# [适配器模式](https://www.runoob.com/design-pattern/adapter-pattern.html)
+
 
