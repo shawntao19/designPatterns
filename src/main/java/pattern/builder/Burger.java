@@ -1,13 +1,13 @@
-package builderpattern;
+package pattern.builder;
 
 /**
  * @Author: xuwentao
  * Created on 2019/10/10 11:03
  */
-public abstract class ColdDrink implements Item {
+public abstract class Burger implements Item {
 
     public Packing packing() {
-        return new Bottle();
+        return new Wrapper();
     }
 
     public abstract float price();
