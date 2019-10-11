@@ -1,0 +1,5 @@
+# [责任链模式](https://www.runoob.com/design-pattern/chain-of-responsibility-pattern.html)
+
+PS:链式循环，往下一步跳转
+
+
