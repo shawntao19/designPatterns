@@ -1,10 +1,10 @@
-package pattern.chain;
+package pattern.chain.optimization;
 
 /**
  * @Author: xuwentao
  * Created on 2019/10/11 21:05
  */
-public abstract class AbstractLogger {
+public abstract class AbstractLoggerOpt {
     public static int INFO = 1;
     public static int DEBUG = 2;
     public static int ERROR = 3;
@@ -12,21 +12,21 @@ public abstract class AbstractLogger {
     protected int level;
 
     //责任链中的下一个元素
-    protected AbstractLogger nextLogger;
+    protected AbstractLoggerOpt nextLogger;
 
-    public void setNextLogger(AbstractLogger nextLogger) {
+    public void setNextLogger(AbstractLoggerOpt nextLogger) {
         this.nextLogger = nextLogger;
     }
 
-    public void logMessage(int level, String message) {
+    public void logMegger(int level, String message) {
         if (this.level <= level) {
-            write(message);
+            log(message);
         }
         if (nextLogger != null) {
-            nextLogger.logMessage(level, message);
+            nextLogger.logMegger(level, message);
         }
     }
 
-    abstract protected void write(String message);
+    abstract protected void log(String message);
 
 }

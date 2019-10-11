@@ -1,4 +1,4 @@
-package pattern.chain;
+package pattern.chain.org;
 
 /**
  * @Author: xuwentao
