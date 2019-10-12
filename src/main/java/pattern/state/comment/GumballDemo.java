@@ -7,14 +7,14 @@ package pattern.state.comment;
 public class GumballDemo {
 
     public static void main(String[] args) {
-        NoPatternGumballMachine noPatternGumballMachine = new NoPatternGumballMachine(100);
+        NoPatternGumballMachine noPatternGumballMachine = new NoPatternGumballMachine(0);
         noPatternGumballMachine.insertQuarter();
         noPatternGumballMachine.turnCrank();
         noPatternGumballMachine.ejectQuarter();
         noPatternGumballMachine.dispense();
 
         System.out.println("==========加入设计模式========");
-        GumballMachine gumballMachine = new GumballMachine(100);
+        GumballMachine gumballMachine = new GumballMachine(0);
         gumballMachine.insertQuarter();
         gumballMachine.turnCrank();
         gumballMachine.ejectQuarter();
