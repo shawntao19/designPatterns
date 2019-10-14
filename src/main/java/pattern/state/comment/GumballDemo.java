@@ -13,9 +13,16 @@ public class GumballDemo {
         noPatternGumballMachine.ejectQuarter();
         noPatternGumballMachine.dispense();
 
+//        System.out.println("==========加入设计模式========");
+//        GumballMachine gumballMachine = new GumballMachine(10);
+//        gumballMachine.insertQuarter();
+//        gumballMachine.turnCrank();
+//        gumballMachine.ejectQuarter();
+//        gumballMachine.dispense();
+
         System.out.println("==========加入设计模式========");
-        GumballMachine gumballMachine = new GumballMachine(0);
-        gumballMachine.insertQuarter();
+        GumballMachine gumballMachine = new GumballMachine(10);
+//        gumballMachine.insertQuarter();
         gumballMachine.turnCrank();
         gumballMachine.ejectQuarter();
         gumballMachine.dispense();
