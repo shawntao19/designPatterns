@@ -1,4 +1,4 @@
-package pattern.dataAccess;
+package pattern.data.access;
 
 /**
  * @Author: xuwentao

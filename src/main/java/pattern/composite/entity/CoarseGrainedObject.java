@@ -1,4 +1,4 @@
-package pattern.compositeEntity;
+package pattern.composite.entity;
 
 /**
  * @Author: xuwentao

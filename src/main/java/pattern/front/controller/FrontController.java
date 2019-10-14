@@ -1,4 +1,4 @@
-package pattern.frontController;
+package pattern.front.controller;
 
 /**
  * @Author: xuwentao

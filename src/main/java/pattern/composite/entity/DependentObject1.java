@@ -1,10 +1,10 @@
-package pattern.compositeEntity;
+package pattern.composite.entity;
 
 /**
  * @Author: xuwentao
- * Created on 2019/10/14 13:51
+ * Created on 2019/10/14 13:50
  */
-public class DependentObject2 {
+public class DependentObject1 {
 
     private String data;
 
