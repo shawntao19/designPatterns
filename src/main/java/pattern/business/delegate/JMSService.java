@@ -1,4 +1,4 @@
-package pattern.businessdelegate;
+package pattern.business.delegate;
 
 /**
  * @Author: xuwentao
