@@ -1,10 +1,10 @@
-package pattern.visitor;
+package pattern.visitor.org;
 
 /**
  * @Author: xuwentao
- * Created on 2019/10/14 9:39
+ * Created on 2019/10/14 9:41
  */
-public class Keyboard implements ComputerPart {
+public class Mouse implements ComputerPart {
 
     public void accept(ComputerPartVisitor computerPartVisitor) {
         computerPartVisitor.visit(this);

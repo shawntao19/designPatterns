@@ -1,4 +1,4 @@
-package pattern.visitor;
+package pattern.visitor.org;
 
 /**
  * @Author: xuwentao
