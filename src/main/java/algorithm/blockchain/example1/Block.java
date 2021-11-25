@@ -1,4 +1,4 @@
-package algorithm.blockchain;
+package algorithm.blockchain.example1;
 
 import lombok.Data;
 

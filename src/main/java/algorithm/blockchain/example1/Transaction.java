@@ -1,4 +1,4 @@
-package algorithm.blockchain; /**
+package algorithm.blockchain.example1; /**
  * @Author: xuwentao
  * Created on 2021/11/24 16:51
  */
